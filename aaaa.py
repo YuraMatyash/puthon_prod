@@ -6,7 +6,11 @@ print(len(my_spisok))
 
 my_spisok.sort(reverse=True)
 
+<<<<<<< HEAD
 new_spisok = [12, 87]
+=======
+new_spisok = [12, 86]
+>>>>>>> 7efe0d1 (main)
 
 my_spisok.extend(new_spisok)
 
