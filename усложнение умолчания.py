@@ -2,7 +2,7 @@ import copy
 from datetime import date
 
 def get_weekday():
-    return date.today().strftime('%A')
+    return date.today().strftime('%Y-%m-%d')
 
 def get_month(post, weekday=get_weekday()):
     post_copy = post.copy()
@@ -16,3 +16,4 @@ instal_post = {
 }
 instal_post = get_month(instal_post)
 print(instal_post)
+
