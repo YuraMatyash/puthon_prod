@@ -6,7 +6,7 @@ def informat(num):
 
 
 def outformat(num, callback_fn):
-    callback_fn(num)  # функция вызывается внутри другой функции (получается тут )
+    callback_fn(num)  # функция вызывается внутри другой функции (получается тут)
 
 
 entered_number = int(input('any number to enter: '))
